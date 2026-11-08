@@ -3,7 +3,6 @@
 A Machine Learning project that classifies underwater objects as **Rock** or **Mine** using sonar signal measurements. The project uses a Support Vector Machine (SVM) with an RBF kernel and is deployed as an interactive web application using Streamlit.
 
 ## Live Demo
-
 [Open Rock vs Mine Prediction System](https://rock-vs-mine-prediction-3qvjdigueodipfyanfzhhj.streamlit.app/)
 
 ## Project Overview
