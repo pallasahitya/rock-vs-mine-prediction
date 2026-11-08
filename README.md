@@ -7,13 +7,11 @@ A Machine Learning project that classifies underwater objects as **Rock** or **M
 [Open Rock vs Mine Prediction System](https://rock-vs-mine-prediction-3qvjdigueodipfyanfzhhj.streamlit.app/)
 
 ## Project Overview
-
 The system analyzes 60 numerical features extracted from sonar signals to predict whether an underwater object is a rock or a metal mine.
 
 The model is trained using the UCI Sonar dataset, which contains 208 samples.
 
 ## Dataset
-
 - **Source:** [UCI Machine Learning Repository - Sonar Dataset](https://archive.ics.uci.edu/dataset/151/connectionist+bench+sonar+mines+vs+rocks)
 - Total samples: 208
 - Features: 60 numerical sonar measurements
@@ -22,7 +20,6 @@ The model is trained using the UCI Sonar dataset, which contains 208 samples.
   - `M`: Mine
 
 ## Technologies Used
-
 - Python
 - Pandas
 - NumPy
@@ -33,7 +30,6 @@ The model is trained using the UCI Sonar dataset, which contains 208 samples.
 - Joblib
 
 ## Machine Learning Workflow
-
 1. Dataset loading and exploration
 2. Exploratory Data Analysis (EDA)
 3. Data preprocessing
@@ -46,7 +42,6 @@ The model is trained using the UCI Sonar dataset, which contains 208 samples.
 10. Web application development and deployment
 
 ## Models Evaluated
-
 | Algorithm | Test Accuracy |
 |---|---:|
 | Logistic Regression | 83.33% |
@@ -56,7 +51,6 @@ The model is trained using the UCI Sonar dataset, which contains 208 samples.
 The RBF SVM achieved the highest test accuracy among the three evaluated models.
 
 ## Project Structure
-
 ```text
 rock-vs-mine-prediction/
 │
@@ -68,7 +62,6 @@ rock-vs-mine-prediction/
 ```
 
 ## Run Locally
-
 Clone the repository:
 
 ```bash
@@ -94,14 +87,12 @@ streamlit run app.py
 ```
 
 ## Application Features
-
 - Interactive input for 60 sonar measurements
 - Feature scaling using the saved StandardScaler
 - Prediction using the trained RBF SVM model
 - Rock or Mine classification results
 
 ## Model Performance
-
 The RBF SVM achieved **85.71% accuracy** on the held-out test set (42 samples).
 
 This is an educational machine learning project. Predictions should not be used for real-world mine detection or safety-critical decisions.
